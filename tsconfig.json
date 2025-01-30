@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true, // Habilita el modo estricto
+    "esModuleInterop": true, // Permite la interoperabilidad entre módulos CommonJS y ES6
+    "skipLibCheck": true, // Omite la verificación de tipos en archivos de definición de tipos
+    "forceConsistentCasingInFileNames": true, // Asegura que los nombres de archivos sean consistentes
+    "outDir": "./dist", // Carpeta de salida para los archivos compilados
+    "rootDir": "./src", // Carpeta raíz del código fuente
+    "types": ["node", "express", "mongodb"] // Incluye definiciones de tipos para Node.js y Express
+  },
+  "include": ["src/**/*"], // Incluye todos los archivos en la carpeta src
+  "exclude": ["node_modules"]
+}

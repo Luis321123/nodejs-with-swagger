@@ -1,0 +1,39 @@
+{
+  "name": "nodewithswagger",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Luis321123/nodejs-with-swagger#readme",
+  "bugs": {
+    "url": "https://github.com/Luis321123/nodejs-with-swagger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luis321123/nodejs-with-swagger.git"
+  },
+  "license": "ISC",
+  "author": "Louis1233210e",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5",
+    "nodemon": "^3.1.9",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongodb": "^4.0.6",
+    "@types/node": "^22.10.7",
+    "@types/nodemon": "^1.19.6",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.7",
+    "@types/typescript": "^0.4.29"
+  }
+}
